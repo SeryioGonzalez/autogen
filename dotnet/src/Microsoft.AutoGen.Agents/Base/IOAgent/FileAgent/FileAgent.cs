@@ -2,7 +2,7 @@ using Microsoft.AutoGen.Agents.Abstractions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace Microsoft.AutoGen.Agents.Client;
+namespace Microsoft.AutoGen.Agents.Base;
 
 [TopicSubscription("FileIO")]
 public abstract class FileAgent(

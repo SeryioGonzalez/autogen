@@ -1,6 +1,8 @@
 using System.Diagnostics;
 using Google.Protobuf;
 using Microsoft.AutoGen.Agents.Abstractions;
+using Microsoft.AutoGen.Agents.Base;
+using AgentId = Microsoft.AutoGen.Agents.Base.AgentId;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 

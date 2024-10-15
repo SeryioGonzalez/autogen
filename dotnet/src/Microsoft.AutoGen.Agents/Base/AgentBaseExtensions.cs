@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace Microsoft.AutoGen.Agents.Client;
+namespace Microsoft.AutoGen.Agents.Base;
 
 public static class AgentBaseExtensions
 {

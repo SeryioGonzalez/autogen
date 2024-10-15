@@ -5,8 +5,9 @@ using System.Text;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Connectors.OpenAI;
 using Microsoft.SemanticKernel.Memory;
+using Microsoft.AutoGen.Agents.Abstractions;
 
-namespace Microsoft.AutoGen.Agents.Client;
+namespace Microsoft.AutoGen.Agents.Base;
 public abstract class AiAgent<T> : AgentBase where T : class, new()
 {
     protected AgentState<T> _state;

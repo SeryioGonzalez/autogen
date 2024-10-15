@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AutoGen.Agents.Abstractions;
+using Microsoft.AutoGen.Agents.Base;
+using AgentId = Microsoft.AutoGen.Agents.Base.AgentId;
 using Microsoft.Extensions.Logging;
 
 namespace Microsoft.AutoGen.Agents.Client;

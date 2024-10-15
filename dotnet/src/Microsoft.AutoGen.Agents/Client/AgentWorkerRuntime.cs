@@ -4,6 +4,8 @@ using System.Reflection;
 using System.Threading.Channels;
 using Grpc.Core;
 using Microsoft.AutoGen.Agents.Abstractions;
+using Microsoft.AutoGen.Agents.Base;
+using AgentId = Microsoft.AutoGen.Agents.Base.AgentId;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -209,7 +211,7 @@ public sealed class AgentWorkerRuntime : IHostedService, IDisposable, IAgentWork
 
     public async ValueTask SendRequest(AgentBase agent, RpcRequest request)
     {
-        _logger.LogInformation("[{AgentId}] Sending request '{Request}'.", agent.AgentId, request);
+        _logger.LogInformation("[{AgentId}] Sending request '{Request}'.", agent.GetAgentId(), request);
         var requestId = Guid.NewGuid().ToString();
         _pendingRequests[requestId] = (agent, request.RequestId);
         request.RequestId = requestId;

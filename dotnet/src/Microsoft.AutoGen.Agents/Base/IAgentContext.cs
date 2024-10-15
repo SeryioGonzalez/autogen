@@ -1,8 +1,8 @@
 using System.Diagnostics;
-using Microsoft.AutoGen.Agents.Abstractions;
 using Microsoft.Extensions.Logging;
+using Microsoft.AutoGen.Agents.Abstractions;
 
-namespace Microsoft.AutoGen.Agents.Client;
+namespace Microsoft.AutoGen.Agents.Base;
 
 public interface IAgentContext
 {

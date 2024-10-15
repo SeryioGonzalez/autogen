@@ -6,7 +6,7 @@ using Google.Protobuf;
 using Microsoft.AutoGen.Agents.Abstractions;
 using Microsoft.Extensions.Logging;
 
-namespace Microsoft.AutoGen.Agents.Client;
+namespace Microsoft.AutoGen.Agents.Base;
 
 public abstract class AgentBase
 {
@@ -30,6 +30,7 @@ public abstract class AgentBase
         Completion = Start();
     }
 
+    public AgentId GetAgentId() => AgentId;
     internal Task Completion { get; }
 
     internal Task Start()
@@ -54,7 +55,7 @@ public abstract class AgentBase
         }
     }
 
-    internal void ReceiveMessage(Message message) => _mailbox.Writer.TryWrite(message);
+    public void ReceiveMessage(Message message) => _mailbox.Writer.TryWrite(message);
 
     private async Task RunMessagePump()
     {

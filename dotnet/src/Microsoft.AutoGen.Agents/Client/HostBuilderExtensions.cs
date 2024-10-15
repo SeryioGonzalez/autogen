@@ -6,6 +6,7 @@ using Google.Protobuf.Reflection;
 using Grpc.Core;
 using Grpc.Net.Client.Configuration;
 using Microsoft.AutoGen.Agents.Abstractions;
+using Microsoft.AutoGen.Agents.Base;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
@@ -116,12 +117,6 @@ public sealed class AgentTypes(Dictionary<string, Type> types)
 
         return new AgentTypes(agents);
     }
-}
-public sealed class EventTypes(TypeRegistry typeRegistry, Dictionary<string, Type> types, Dictionary<Type, HashSet<string>> eventsMap)
-{
-    public TypeRegistry TypeRegistry { get; } = typeRegistry;
-    public Dictionary<string, Type> Types { get; } = types;
-    public Dictionary<Type, HashSet<string>> EventsMap { get; } = eventsMap;
 }
 
 public sealed class AgentApplicationBuilder(IHostApplicationBuilder builder)

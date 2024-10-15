@@ -114,6 +114,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AutoGen.Agents.Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AutoGen.Agents.Client", "src\Microsoft.AutoGen.Agents\Client\Microsoft.AutoGen.Agents.Client.csproj", "{CEEC175F-8752-4040-9226-8F5FEC7563B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AutoGen.Agents.Base", "src\Microsoft.AutoGen.Agents\Base\Microsoft.AutoGen.Agents.Base.csproj", "{36E0DB9C-FE10-43FC-B456-E805D8822201}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AutoGen.Agents.Abstractions", "src\Microsoft.AutoGen.Agents\Abstractions\Microsoft.AutoGen.Agents.Abstractions.csproj", "{0C8AB892-3042-4694-8D26-40153680AB37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -304,6 +308,14 @@ Global
 		{CEEC175F-8752-4040-9226-8F5FEC7563B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEEC175F-8752-4040-9226-8F5FEC7563B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEEC175F-8752-4040-9226-8F5FEC7563B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E0DB9C-FE10-43FC-B456-E805D8822201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E0DB9C-FE10-43FC-B456-E805D8822201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E0DB9C-FE10-43FC-B456-E805D8822201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E0DB9C-FE10-43FC-B456-E805D8822201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8AB892-3042-4694-8D26-40153680AB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8AB892-3042-4694-8D26-40153680AB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8AB892-3042-4694-8D26-40153680AB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8AB892-3042-4694-8D26-40153680AB37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -359,6 +371,8 @@ Global
 		{2B1701A5-BEA2-4844-863B-0275ECCCD11D} = {18BF8DD7-0585-48BF-8F97-AD333080CE06}
 		{FDD6787A-EE6A-4A8E-872F-CDA97A824D08} = {18BF8DD7-0585-48BF-8F97-AD333080CE06}
 		{CEEC175F-8752-4040-9226-8F5FEC7563B8} = {18BF8DD7-0585-48BF-8F97-AD333080CE06}
+		{36E0DB9C-FE10-43FC-B456-E805D8822201} = {143BF45F-1091-458C-A772-DAD5C57B72FA}
+		{0C8AB892-3042-4694-8D26-40153680AB37} = {143BF45F-1091-458C-A772-DAD5C57B72FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93384647-528D-46C8-922C-8DB36A382F0B}

@@ -1,6 +1,6 @@
 using Microsoft.AutoGen.Agents.Abstractions;
 
-namespace Microsoft.AutoGen.Agents.Client;
+namespace Microsoft.AutoGen.Agents.Base;
 
 public abstract class IOAgent<T> : AgentBase where T : class, new()
 {
