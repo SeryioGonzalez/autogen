@@ -4,7 +4,7 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<PackageId>AutoGen.Worker.Client</PackageId>
+		<PackageId>Microsoft.AutoGen.Agents.Client</PackageId>
 		<PackageProjectUrl>https://github.com/microsoft/autogen</PackageProjectUrl>
 		<Authors>Microsoft</Authors>
 		<Description>AutoGen Worker Client Library</Description>

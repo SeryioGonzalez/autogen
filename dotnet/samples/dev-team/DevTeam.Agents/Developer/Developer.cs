@@ -1,6 +1,6 @@
 using DevTeam.Shared;
 using Microsoft.AutoGen.Agents.Abstractions;
-using Microsoft.AutoGen.Agents.Client;
+using Microsoft.AutoGen.Agents.Base;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Memory;
 

@@ -8,7 +8,7 @@
 
   <ItemGroup>
    
-    <ProjectReference Include="../../../src/Microsoft.AutoGen.Agents/Client/Microsoft.AutoGen.Agents.Client.csproj" />
+    <ProjectReference Include="../../../src/Microsoft.AutoGen.Agents/Base/Microsoft.AutoGen.Agents.Base.csproj" />
    
     <ProjectReference Include="../../../src/Microsoft.AutoGen.ServiceDefaults/Microsoft.AutoGen.ServiceDefaults.csproj" />
     <ProjectReference Include="..\DevTeam.Shared\DevTeam.Shared.csproj" />

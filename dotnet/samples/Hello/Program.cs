@@ -1,5 +1,6 @@
 using Microsoft.AutoGen.Agents.Abstractions;
 using Microsoft.AutoGen.Agents.Client;
+using Microsoft.AutoGen.Agents.Base;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
